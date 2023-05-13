@@ -38,10 +38,10 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="{% url 'home' %}">{{ data.headbox.accueil }}</a></li>
-                        <li><a href="{% url 'cv' %}">{{ data.headbox.cv }}</a></li>
-                        <li><a href="{% url 'projets' %}">{{ data.headbox.projets }}</a></li>
-                        <li><a href="{% url 'contact' %}">{{ data.headbox.contact }}</a></li>
+                        <li><a href="{% url 'home' %}?lang={{ lang }}">{{ data.headbox.accueil }}</a></li>
+                        <li><a href="{% url 'cv' %}?lang={{ lang }}">{{ data.headbox.cv }}</a></li>
+                        <li><a href="{% url 'projets' %}?lang={{ lang }}">{{ data.headbox.projets }}</a></li>
+                        <li><a href="{% url 'contact' %}?lang={{ lang }}">{{ data.headbox.contact }}</a></li>
                     </ul>
                 </nav>
             </aside>
