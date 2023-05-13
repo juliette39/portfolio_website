@@ -1,0 +1,39 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block article %}
+
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.contact.title }}</h2>
+        <img src="/static/main/images/logo_cible.png" alt="logo" class="ico_categorie"/>
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+    <p>
+        <img src="/static/main/images/logo_mail.svg" alt="logo" class="ico_hobbies" height="20" width="20"/>
+        {{ data.contact.mailTitle }}&nbsp;:
+        <div class="indentation"><a href="mailto:{{ data.contact.mailAddress }}?subject=Portfolio" >{{ data.contact.mailAddress }}</a></div>
+    </p>
+
+    <p>
+        <img src="/static/main/images/logo_linkedin.png" alt="logo" class="ico_hobbies" height="20" width="20"/>
+        {{ data.contact.LinkedInTitle }}&nbsp;:
+        <div class="indentation"><a href="https://{{ data.link.LinkedIn }}" target="_blank">{{ data.link.LinkedIn }}</a></div>
+    </p>
+
+    <p>
+        <img src="/static/main/images/logo_github.png" alt="logo" class="ico_hobbies" height="20" width="20"/>
+        {{ data.contact.GitHubTitle }}&nbsp;:
+        <div class="indentation"><a href="{{ data.link.GitHub }}" target="_blank">{{ data.link.GitHub }}</a></div>
+    </p>
+
+    </div>
+  </div>
+
+
+{% endblock %}

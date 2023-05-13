@@ -1,0 +1,408 @@
+{
+    "fr" : {
+        "name" : "Juliette Debono",
+        "link" : {
+            "GitHub" : "www.github.com/juliette39",
+            "LinkedIn" : "www.linkedin.com/in/juliette-debono",
+            "CV" : "https://www.debono.fr/juliette/images/Juliette_Debono_Resume.pdf"
+        },
+
+        "headbox" : {
+            "headboxDescription1" : "Étudiante en école d'ingénieur",
+            "headboxDescription2" : " ans | Permis B | PSC1",
+            "accueil" : "Accueil",
+            "cv" : "CV",
+            "projets" : "Projets",
+            "contact" : "Contact"
+        },
+
+        "accueil" : {
+            "title" : "Bonjour !",
+            "description1" : "Bienvenu sur mon site web !",
+            "description2" : "Vous trouverez ici mon CV, mes projets ainsi que les moyens pour me contacter."
+        },
+
+        "cv" : {
+            "title" : "CV",
+            "cat1" : {
+                "title" : "Objectif",
+                "icon" : "../images/logo_cible.png",
+                "description" : "Actuellement en école d’ingénieur, Je souhaite approfondir mes connaissances en matière de développement informatique, de sites web ou d'applications afin de parfaire ma passion pour l'informatique."
+            },
+            "cat2" : {
+                "title" : "Expérience",
+                "icon" : "../images/logo_expérience.svg",
+                "cont" : [
+                    "Stagiaire durant 5 semaines à <a href=\"https://www.milvue.com\" target=\"_blank\">Milvue</a>, entreprise d’IA pour détecter diverses pathologies dans les radiologies. Aide sur un outil de CRM : HubSpot et aide sur le design du site web.",
+                    "Secrétaire générale du Bureau des Élèves de Télécom SudParis. Travail avec une équipe de 35 personnes. Aide à la préparation d'un week-end d'intégration intégralement organisé par le BDE pour les étudiants, ainsi que de nombreuses soirées accueillant plusieurs centaines d'élèves.",
+                    "Cheffe de projet d'une équipe de 5 personnes. Travail avec des jeunes de maison de quartier à Évry d'introduction à la découverte du théâtre."
+                ]
+            },
+            "cat3" : {
+                "title" : "Compétences",
+                "icon" : "../images/logo_tete.png",
+                "programmation" : {
+                    "title" : "Programmation :",
+                    "prog" : [
+                        {
+                            "title" : "Python",
+                            "description" : ["Depuis 4 ans, dont 2 ans en prépa, de nombreux projets (scolaires et personnels). Réalisation d'un site web avec le framework Django."]
+                        },
+                        {
+                            "title" : "SQLite & MySQL",
+                            "description" : ["Cours de prépa de découverte du language SQLite et cours plus poussé en école d'ingénieur notamment sur la modélisation, les diagrammes de classes (UML), ainsi que la normalisation."]
+                        },
+                        {
+                            "title" : "OCaml",
+                            "description" : ["Cours d'option informatique de prépa."]
+                        },
+                        {
+                            "title" : "Applications mobiles (Java, XML, Swift)",
+                            "description" : ["J'ai fait une application (<a href=\"https://www.debono.fr/juliette/TheCode/app.php\">TheCode</a>) pour Android et IOS/Mac. J'ai également fait pour un projet d'école d'ingénieur une application mobile (non déployé) d'un chatbot qui gère un emploi du temps (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
+                        },
+                        {
+                            "title" : "Site web (HTML, CSS, PHP, Symfony, Doctrine, Django)",
+                            "description" : [
+                                "Quelques pages web (disponibles sur mon site) dont TheCode et un générateur de poème aléatoire (<a href=\"http://poeme.h.minet.net\">Ici</a>)",
+                                "Un projet PHP de partage de carte magic (<a href=\"http://lilianastrade.h.minet.net\">Liliana's Trade</a>), utilisant les framework PHP Symfony et Doctrine, ainsi que Bootstrap.",
+                                "Un site web personnel en Django"]
+                        }
+                    ]
+                },
+                "langues" : {
+                    "title" : "Langues :",
+                    "lang" : [
+                        {
+                            "title" : "Français - Maternelle",
+                            "description" : "Ma langue maternelle, , Niveau C2"
+                        },
+                        {
+                            "title" : "Anglais - Avancé",
+                            "description" : "11 ans pendant mes études, nombreux séjours linguistiques à l'étranger, <a href=\"https://www.debono.fr/juliette/images/attestationAnglaisC1.pdf\">Niveau C1</a>"
+                        },
+                        {
+                            "title" : "Espagnol - Intermédiaire",
+                            "description" : "7 ans pendant mes études, <a href=\"https://www.debono.fr/juliette/images/attestationEspagnolB2.pdf\">Niveau B2</a>"
+                        },
+                        {
+                            "title" : "Italien - Débutant",
+                            "description" : "3 ans au lycée, Niveau A2"
+                        }
+                    ]
+                },
+                "autre" : {
+                    "title" : "Gestion de projet :",
+                    "title2" : "Suivi du MOOC Gestion de projet",
+                    "description" : "Suivi du tronc commun du <a href=\"https://mooc.gestiondeprojet.pm\" target=\"_blank\">MOOC Gestion de projet</a> ainsi que de trois spécialisations :<br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdP\" target=\"_blank\">Tronc commun</a><br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdP_OAW\" target=\"_blank\">Outils et applications web pour la gestion de projet</a><br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdP_PAV\" target=\"_blank\">Planification Avancée</a><br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdPGdP_AS\" target=\"_blank\">Analyse Stratégique dans les projets</a>"   
+                }
+            },
+            "cat4" : {
+                "title" : "Formation",
+                "icon" : "../images/logo_chapeau.png",
+                "form" : [
+                    {
+                        "title" : "ECOLE D'INGÉNIEUR • 2021-2024 • <a href=\"https://www.telecom-sudparis.eu\" target=\"_blank\">TÉLÉCOM SUD-PARIS</a> • <a href=\"https://www.ip-paris.fr\" target=\"_blank\">INSTITUT POLYTECHNIQUE DE PARIS</a> ÉVRY",
+                        "description" : "École d'ingénieur du numérique. Deuxième année en cours.<br />Cours d'informatique : Java, Bash, PHP, C ; de réseaux ; d'image et de mathématiques."
+                    },
+                    {
+                        "title" : "CPGE • 2019-2021 • <a href=\"http://www.lamartinieremonplaisir.org\" target=\"_blank\">LYCÉE LA MARTINIÈRE MONPLAISIR</a> LYON 8",
+                        "description" : "MPSI - MP* spécialité Informatique"
+                    },
+                    {
+                        "title" : "BACCALAURÉAT • 2019 • <a href=\"http://www.lyc-jean-michel.ac-besancon.fr\" target=\"_blank\">LYCÉE JEAN MICHEL</a> LONS-LE-SAUNIER",
+                        "description" : "S SVT, Option Mathématiques | 18.47 Mention Très Bien"
+                    }
+                ]
+            },
+            "cat5" : {
+                "title" : "Hobbies",
+                "icon" : "../images/logo_coeur.png",
+                "hobb" : [
+                    {
+                        "title" : "Escalade",
+                        "icon" : "../images/logo_escalade.png",
+                        "description" : "8 ans de cours"
+                    },
+                    {
+                        "title" : "Guitare",
+                        "icon" : "../images/logo_guitare.png",
+                        "description" : "Depuis 10 ans<br />8 ans de cours<br />Nombreux concerts de mon école de musique ou de mon lycée"
+                    },
+                    {
+                        "title" : "Cinéma",
+                        "icon" : "../images/logo_cinema.png",
+                        "description" : "Cinéphile<br />Réalisations de vidéos pour des professionels<br />Présidente du club cinéma de Télécom SudParis<br /><a href=\"https://www.debono.fr/juliette/images/prix%20cinéma.jpeg\">Troisième prix du concours régional étudiant du film court Auvergne-Rhone-Alpes</a>"
+                    },
+                    {
+                        "title" : "Théâtre",
+                        "icon" : "../images/logo_theatre.png",
+                        "description" : "Passionnée de théâtre<br />Stage de troisième en 2014 aux scènes du Jura au théâtre de Lons-le-Saunier<br />Compagnon des scènes du Jura en 2018 où j'ai pu rencontrer des artistes (metteurs en scènes, écrivains, danseurs...) et faire des ateliers<br />Participation à deux pièces de théâtre à Télécom SudParis"
+                    },
+                    {
+                        "title" : "Programmation",
+                        "icon" : "../images/logo_programmation.png",
+                        "description" : "Passionnée de programmation, notamment la cybersécurité (TIPE - travail sur une année en prépa - sur les mots de passe, fonctions de hachage et les attaques existant actuellement, 18/20 à l'examen final)"
+                    }
+                ]
+            },
+            "cat6" : {
+                "title" : "CV",
+                "icon" : "../images/logo_cv.png",
+                "see" : "Voir le CV",
+                "download" : "Télécharger le CV"
+            }
+        },
+
+        "projets" : {
+            "title" : "Mes projets",
+            "proj" : [
+                {"title" : "Liliana's Trade", 
+                "link" : "http://lilianastrade.h.minet.net", 
+                "icon" : "../images/lilianastrade.jpg",
+                "description" : "Site web développé pendant ma deuxième année d'école d'ingénieur pour un projet scolaire. Développée avec Symfony et Composer pour faire une application qui gère des collections de cartes Magics, de decks et des cartes liées à des comptes"
+                },
+                {"title" : "BD", 
+                "link" : "https://www.debono.fr/juliette/BD/", 
+                "icon" : "../images/logo_bd.png",
+                "description" : "Site web pour stocker et retrouver toutes les bandes dessinées de ma mère"
+                },
+                {"title" : "JIMI The Chatbot", 
+                "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR", 
+                "icon" : "../images/logo_jimi.png",
+                "description" : "Application d'un chatbot qui permet de gérer son emploi du temps à partir d'un chat. Développée avec python pour la compréhension des messages, et avec Android Studio et Java pour l'interface de l'application. Application non déployée (serveur local)."
+                },
+                {"title" : "TheCode", 
+                "link" : "https://www.debono.fr/juliette/TheCode", 
+                "icon" : "../images/logo_thecode.svg",
+                "description" : "Application / Site web pour générer des mots de passe"
+                },
+                {"title" : "Poème", 
+                "link" : "http://poeme.h.minet.net", 
+                "icon" : "../images/logo_poeme.png",
+                "description" : "Générateur de poème aléatoire avec rime et pied. Projet de fin de première année de CPGE en informatique avec l'utilisation de SQLite"
+                },
+                {"title" : "Il n'est jamais trop tard pour changer le monde", 
+                "link" : "https://www.youtube.com/watch?v=ugxQwSqXhDY", 
+                "icon" : "../images/logo_youtube.svg",
+                "description" : "Court-métrage réalisé dans le cadre du concours étudiant du CROUS du film court, troisième prix de la région Auvergne-Rhône-Alpes"
+                },
+                {"title" : "La mesure du temps dans l'Antiquité", 
+                "link" : "http://la-mesure-du-temps.e-monsite.com", 
+                "icon" : "../images/logo_tpe.png",
+                "description" : "Site internet sur la mesure du temps dans l'Antiquité réalisé pour les TPE de première en 2018"
+                }
+            ]
+        },
+        
+        "contact" : {
+            "title" : "Me Contacter",
+            "mailTitle" : "Adresse mail",
+            "mailAddress" : "juliette.debono@telecom-sudparis.eu",
+            "LinkedInTitle" : "LinkedIn",
+            "GitHubTitle" : "GitHub"
+        }
+    },
+    "en" : {
+        "name" : "Juliette Debono",
+        "link" : {
+            "GitHub" : "www.github.com/juliette39",
+            "LinkedIn" : "www.linkedin.com/in/juliette-debono/?locale=en_US",
+            "CV" : "https://www.debono.fr/juliette/images/Juliette_Debono_Resume.pdf"
+        },
+    
+        "headbox" : {
+            "headboxDescription1" : "Engineering student",
+            "headboxDescription2" : " yo | Driver Licence | First aid diploma",
+            "accueil" : "Main",
+            "cv" : "CV",
+            "projets" : "Projects",
+            "contact" : "Contact"
+        },
+    
+        "accueil" : {
+            "title" : "Welcom!",
+            "description1" : "Welcom on my website!",
+            "description2" : "You will find my CV, my projects and contact informations."
+        },
+    
+        "cv" : {
+            "title" : "CV",
+            "cat1" : {
+                "title" : "Objective",
+                "icon" : "../images/logo_cible.png",
+                "description" : "Currently in engineering school, I wish to deepen my knowledge in IT development, websites or applications to perfect my passion for computer science."
+            },
+            "cat2" : {
+                "title" : "Experience",
+                "icon" : "../images/logo_expérience.svg",
+                "cont" : [
+                    "5 weeks internship at <a href=\"https://www.milvue.com\" target=\"_blank\">Milvue</a>, AI start-up to detect various pathologies in radiology. Development of the Hubspot CRM (Customer Relationship Management) tool & Web Site Design.",
+                    "General Secretary of the Télécom SudParis Student Office. Worked with a team of 35 people. Helped prepare an integration weekend organised entirely by the BDE for the students, as well as numerous parties for several hundred students.",
+                    "Project leader of a team of 5 people. Work with young people in a neighbourhood centre in Evry to introduce them to theatre."
+                ]
+            },
+            "cat3" : {
+                "title" : "Skills",
+                "icon" : "../images/logo_tete.png",
+                "programmation" : {
+                    "title" : "Programming:",
+                    "prog" : [
+                        {
+                            "title" : "Python",
+                            "description" : ["Since 4 years, within 2 years in preparatory school, many projects (school and personal). Creation of a website with the Django framework."]
+                        },
+                        {
+                            "title" : "SQLite & MySQL",
+                            "description" : ["I took a course to discover the SQLite language and a more advanced course in engineering school on modelling, class diagrams (UML), as well as normalisation."]
+                        },
+                        {
+                            "title" : "OCaml",
+                            "description" : ["Preparatory class computer science option course."]
+                        },
+                        {
+                            "title" : "Mobile applications (Java, XML, Swift)",
+                            "description" : ["I made an application for Android and IOS/Mac (<a href=\"https://www.debono.fr/juliette/TheCode/app.php\">TheCode</a>) pour Android et IOS/Mac. I also made for an engineering school project a mobile application (not deployed) of a chatbot that manages a schedule (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
+                        },
+                        {
+                            "title" : "Site web (HTML, CSS, PHP, Symfony, Doctrine, Django)",
+                            "description" : [
+                                "Some web pages (available on my site) including TheCode and a random french poem generator (<a href=\"http://poeme.h.minet.net\">Ici</a>)",
+                                "A PHP magic card sharing project (<a href=\"http://lilianastrade.h.minet.net\">Liliana's Trade</a>), using the PHP frameworks Symfony and Doctrine, and Bootstrap.",
+                                "A personnal website in Django"]
+                        }
+                    ]
+                },
+                "langues" : {
+                    "title" : "Languages:",
+                    "lang" : [
+                        {
+                            "title" : "French - Native",
+                            "description" : "My mother tongue, C2 level"
+                        },
+                        {
+                            "title" : "English - Fluent",
+                            "description" : "11 years during my studies, numerous language stays abroad, <a href=\"https://www.debono.fr/juliette/images/attestationAnglaisC1.pdf\">C1 level</a>"
+                        },
+                        {
+                            "title" : "Spanish - Conversational",
+                            "description" : "7 years during my studies, <a href=\"https://www.debono.fr/juliette/images/attestationEspagnolB2.pdf\">B2 level</a>"
+                        },
+                        {
+                            "title" : "Italian - Basic",
+                            "description" : "3 years in high school, Niveau A2"
+                        }
+                    ]
+                },
+                "autre" : {
+                    "title" : "Project Managment:",
+                    "title2" : "Validation of the Project Management MOOC",
+                    "description" : "Validation of the core of the <a href=\"https://mooc.gestiondeprojet.pm\" target=\"_blank\">Project Management MOOC (MOOC Gestion de projet)</a> and three specialisations:<br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdP\" target=\"_blank\">Common core</a><br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdP_OAW\" target=\"_blank\">Web tools and applications for project management</a><br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdP_PAV\" target=\"_blank\">Advanced Planning</a><br/>- <a href=\"https://www.debono.fr/juliette/images/Attestation_de_reussite_MOOC_GdPGdP_AS\" target=\"_blank\">Strategic Analysis in Projects</a>"   
+                }
+            },
+            "cat4" : {
+                "title" : "Education",
+                "icon" : "../images/logo_chapeau.png",
+                "form" : [
+                    {
+                        "title" : "ENGINEERING SCHOOL • 2021-2024 • <a href=\"https://www.telecom-sudparis.eu/en/\" target=\"_blank\">TÉLÉCOM SUD-PARIS</a> • <a href=\"https://www.ip-paris.fr/en\" target=\"_blank\">INSTITUT POLYTECHNIQUE DE PARIS</a> ÉVRY",
+                        "description" : "School of Digital Engineering. Second year in progress.<br />Computer science courses: Java, Bash, PHP, C; networks; imaging and mathematics."
+                    },
+                    {
+                        "title" : "CPGE • 2019-2021 • <a href=\"http://www.lamartinieremonplaisir.org\" target=\"_blank\">LYCÉE LA MARTINIÈRE MONPLAISIR</a> LYON 8",
+                        "description" : "Two-year study course preparing for the presitigious French ‘Grandes Écoles’ (engineering schools).<br />Specialized in Maths, Physics and Computer Science"
+                    },
+                    {
+                        "title" : "High School Degree • 2019 • <a href=\"http://www.lyc-jean-michel.ac-besancon.fr\" target=\"_blank\">LYCÉE JEAN MICHEL</a> LONS-LE-SAUNIER",
+                        "description" : "High School Scientific Degree (Baccalauréat), Main courses: Maths, Physics, Biology | 18.47/20 Highest Honors"
+                    }
+                ]
+            },
+            "cat5" : {
+                "title" : "Hobbies",
+                "icon" : "../images/logo_coeur.png",
+                "hobb" : [
+                    {
+                        "title" : "Climbing",
+                        "icon" : "../images/logo_escalade.png",
+                        "description" : "8 years of courses"
+                    },
+                    {
+                        "title" : "Guitar",
+                        "icon" : "../images/logo_guitare.png",
+                        "description" : "For the past 10 years<br />8 years of courses<br />Many concerts at my music school or high school"
+                    },
+                    {
+                        "title" : "Cinema",
+                        "icon" : "../images/logo_cinema.png",
+                        "description" : "Cinéphile<br />Several video productions for professionals<br />President of the film club of Télécom SudParis<br /><a href=\"https://www.debono.fr/juliette/images/prix%20cinéma.jpeg\">Third prize in the Auvergne-Rhone-Alpes regional student short film competition</a>"
+                    },
+                    {
+                        "title" : "Theatre",
+                        "icon" : "../images/logo_theatre.png",
+                        "description" : "Passionate about theatre<br />Discovery internship in 2014 at the \"Scène du Jura\" at the theatre of Lons-le-Saunier<br />Compagnon of the \"Scènes du Jura\" in 2018 where I was able to meet artists (directors, writers, dancers...) and do workshops<br />Participation in two plays at Télécom SudParis"
+                    },
+                    {
+                        "title" : "Programming",
+                        "icon" : "../images/logo_programmation.png",
+                        "description" : "Passionate about programming, especially cybersecurity (TIPE (project in preparatory class) - one year research on passwords, hash functions and current attacks, 18/20 at the final exam)"
+                    }
+                ]
+            },
+            "cat6" : {
+                "title" : "CV",
+                "icon" : "../images/logo_cv.png",
+                "see" : "See my CV",
+                "download" : "Download my CV"
+            }
+        },
+    
+        "projets" : {
+            "title" : "My projects",
+            "proj" : [
+                {"title" : "Liliana's Trade", 
+                "link" : "http://lilianastrade.h.minet.net", 
+                "icon" : "../images/lilianastrade.jpg",
+                "description" : "Website developed during my second year of engineering school for a school project. Developed with Symfony and Composer to make an application that manages collections of Magics cards, decks and cards linked to accounts"
+                },
+                {"title" : "Comics", 
+                "link" : "https://www.debono.fr/juliette/BD/", 
+                "icon" : "../images/logo_bd.png",
+                "description" : "Website to store & find all the comics of my mother"
+                },
+                {"title" : "JIMI The Chatbot", 
+                "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR", 
+                "icon" : "../images/logo_jimi.png",
+                "description" : "Application of a chatbot that allows to manage one's schedule from a chat. Developed with python for message understanding, and with Android Studio and Java for the application interface. Non-deployed application (local server)."
+                },
+                {"title" : "TheCode", 
+                "link" : "https://www.debono.fr/juliette/TheCode", 
+                "icon" : "../images/logo_thecode.svg",
+                "description" : "Application / website to generate passwords"
+                },
+                {"title" : "Poeme", 
+                "link" : "http://poeme.h.minet.net", 
+                "icon" : "../images/logo_poeme.png",
+                "description" : "Random poem generator with rhyme and foot. Project for the end of the first year of preparatory class in computer science with the use of SQLite"
+                },
+                {"title" : "Il n'est jamais trop tard pour changer le monde",
+                "link" : "https://www.youtube.com/watch?v=ugxQwSqXhDY", 
+                "icon" : "../images/logo_youtube.svg",
+                "description" : "Short film produced for the CROUS student short film competition, third prize in the Auvergne-Rhône-Alpes region"
+                },
+                {"title" : "La mesure du temps dans l'Antiquité", 
+                "link" : "http://la-mesure-du-temps.e-monsite.com", 
+                "icon" : "../images/logo_tpe.png",
+                "description" : "Website on the measurement of time in Antiquity made for the TPE of première in 2018"
+                }
+            ]
+        },
+        
+        "contact" : {
+            "title" : "Contact me",
+            "mailTitle" : "Email Address",
+            "mailAddress" : "juliette.debono@telecom-sudparis.eu",
+            "LinkedInTitle" : "LinkedIn",
+            "GitHubTitle" : "GitHub"
+        }
+    }
+}

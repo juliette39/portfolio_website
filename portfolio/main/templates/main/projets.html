@@ -1,0 +1,39 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block article %}
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2><?php echo $data['projets']['title']; ?></h2>
+        <img src="/static/main/images/logo_cible.png" alt="logo" class="ico_categorie"/>
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        <div class="grid">
+
+            {% for valeur in data.projets.proj %}
+                <div class="grid-item">
+                    <p class="title"> {{ valeur.title }} </p>
+                    <img class="image-grille" src="/static/main/images/{{ valeur.icon }}" data-title="{{ valeur.title }}" data-description="{{ valeur.description }}" data-link="{{ valeur.link }}" alt="{{ valeur.title }}">
+                </div>
+            {% endfor %}
+
+            <!-- HTML pour la fenêtre modale -->
+            <div class="modal">
+                <div class="modal-content">
+                    <a id="modal-link" href="" target="_blank">
+                        <h2 id="modal-title"></h2>
+                        <img id="modal-image" src="">
+                    </a>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

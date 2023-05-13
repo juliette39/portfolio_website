@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Juliette Debono">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="/static/main/images/photo_mini.jpg" />
+    <title>{{ data.name }}</title>
+    <link rel="stylesheet" href="/static/main/style.css" />
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <div id="bloc_page">
+        <header>
+            <img src="/static/main/images/logo_livre.png" alt="logo livre" height="100" width="100" />
+            <a href="?lang={% if lang == 'fr' %}en{% else %}fr{% endif %}" id="langue">
+                {% if lang == 'fr' %}EN{% else %}FR{% endif %}
+            </a>
+            <h1>{{ data.name }}</h1>
+        </header>
+        <section>
+            <aside>
+                <div id="ligne_titre">
+                    <h2>{{ data.name }} &nbsp;</h2>
+
+                    <a href="https://{{ data.link.GitHub }}" class="linkedin" target="_blank"><img src="/static/main/images/logo_github_white.png" alt="logo github" height="40" width="40" /></a>
+                    <a href="https://{{ data.link.LinkedIn }}" class="linkedin" target="_blank"><img src="/static/main/images/logo_linkedin.png" alt="logo linkedin" height="40" width="40" /></a>
+                </div>
+
+                <div id="image">
+                    <a href="/static/main/images/photo.jpg">
+                        <img src="/static/main/images/photo.jpg" alt="Ma Photo" height="200" width="200" id="ma_photo" />
+                    </a>
+                </div>
+                <div id="description">
+                    <p>{{ data.headbox.headboxDescription1 }}<br/>{{ age }}{{ data.headbox.headboxDescription2 }}</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="{% url 'home' %}">{{ data.headbox.accueil }}</a></li>
+                        <li><a href="{% url 'cv' %}">{{ data.headbox.cv }}</a></li>
+                        <li><a href="{% url 'projets' %}">{{ data.headbox.projets }}</a></li>
+                        <li><a href="{% url 'contact' %}">{{ data.headbox.contact }}</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <article>
+            {% block article %}{% endblock %}
+            </article>
+        </section>
+    </div>
+</body>
+
+{% block javascript %}
+{% endblock %}
+<script src="{% static 'main/script.js' %}"></script>
+
+</html>

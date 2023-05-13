@@ -1,0 +1,173 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block article %}
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.cv.cat1.title }}</h2>
+        <img src="/static/main/images/{{ data.cv.cat1.icon }}" alt="logo" class="ico_categorie" />
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        <p>
+            {% autoescape off %}
+                {{ data.cv.cat1.description }}
+            {% endautoescape %}
+        </p>
+    </div>
+</div>
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.cv.cat2.title }}</h2>
+        <img src="/static/main/images/{{ data.cv.cat2.icon }}" alt="logo" class="ico_categorie" />
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        {% for valeur in data.cv.cat2.cont %}
+            {% autoescape off %}
+                <p>{{ valeur }}</p>
+            {% endautoescape %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.cv.cat3.title }}</h2>
+        <img src="/static/main/images/{{ data.cv.cat3.icon }}" alt="logo" class="ico_categorie" />
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        <p>{{ data.cv.cat3.programmation.title }}</p>
+
+        <div class="comp">
+            {% for valeur in data.cv.cat3.programmation.prog %}
+                <div class="text">
+                    {{ valeur.title }}
+                    {% for description in valeur.description %}
+                        <div class="exp_comp">
+                            {% autoescape off %}
+                                {{ description }}
+                            {% endautoescape %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+
+        <p>{{ data.cv.cat3.langues.title }}</p>
+        <div class="comp">
+
+            {% for valeur in data.cv.cat3.langues.lang %}
+            <div class="text">
+                {{ valeur.title }}
+                <div class="exp_comp">
+                    {% autoescape off %}
+                        {{ valeur.description }}
+                    {% endautoescape %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <p></p>
+        </div>
+
+        <p>{{ data.cv.cat3.autre.title }}</p>
+        <div class="comp">
+            <div class="text">
+            {{ data.cv.cat3.autre.title2 }}
+                <div class="exp_comp">
+                    {% autoescape off %}
+                        {{ data.cv.cat3.autre.description }}
+                    {% endautoescape %}
+                </div>
+            </div>
+
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.cv.cat4.title }}</h2>
+        <img src="/static/main/images/{{ data.cv.cat4.icon }}" alt="logo" class="ico_categorie" />
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        {% for valeur in data.cv.cat4.form %}
+            <p>
+                {% autoescape off %}
+                    {{ valeur.title }}
+                {% endautoescape %}
+                <br/>
+                {% autoescape off %}
+                    {{ valeur.description }}
+                {% endautoescape %}
+            </p>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.cv.cat5.title }}</h2>
+        <img src="/static/main/images/{{ data.cv.cat5.icon }}" alt="logo" class="ico_categorie" />
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        <p></p>
+        <div class="comp2">
+            {% for valeur in data.cv.cat5.hobb %}
+                <img src="/static/main/images/{{ valeur.icon }}" alt="logo" class="ico_hobbies" height="42" width="42" />
+                {{ valeur.title }}
+                <div class="exp_comp2">
+                    {% autoescape off %}
+                        {{ valeur.description }}
+                    {% endautoescape %}
+                </div>
+                <p></p>
+            {% endfor %}
+        </div>
+        <p></p>
+    </div>
+</div>
+
+<div class="bandeau">
+    <div class="titre">
+        <div class="fleche"></div>
+        <h2>{{ data.cv.cat6.title }}</h2>
+        <img src="/static/main/images/{{ data.cv.cat6.icon }}" alt="logo" class="ico_categorie" />
+    </div>
+</div>
+
+<div class="paragraphe">
+    <div class="bande">&nbsp;</div>
+    <div class="bulle">
+        <a href="{{ data.link.CV }}"><p class=bouton>{{ data.cv.cat6.see }}</p></a>
+        <a href="{{ data.link.CV }}" download><p class=bouton>{{ data.cv.cat6.download }}</p></a>
+    </div>
+</div>
+
+{% endblock %}
