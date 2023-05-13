@@ -5,7 +5,7 @@ from django.conf import settings
 
 def get_data(lang):
     filename = os.path.join(settings.BASE_DIR, 'main/static/main/fixtures/texte.json')
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding='utf-8') as f:
         data = json.load(f)
     return data[lang]
 
