@@ -1,10 +1,10 @@
 from django.shortcuts import render
-import json
-
+import json, os
+from django.conf import settings
 # Create your views here.
 
 def get_data(lang):
-    filename = './main/static/main/fixtures/texte.json'
+    filename = os.path.join(settings.BASE_DIR, 'main/static/main/fixtures/texte.json')
     with open(filename, "r") as f:
         data = json.load(f)
     return data[lang]
