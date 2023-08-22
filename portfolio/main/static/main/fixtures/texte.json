@@ -58,7 +58,7 @@
                         },
                         {
                             "title" : "Applications mobiles (Java, XML, Swift)",
-                            "description" : ["J'ai fait une application (<a href=\"https://www.debono.fr/juliette/TheCode/app.php\">TheCode</a>) pour Android et IOS/Mac. J'ai également fait pour un projet d'école d'ingénieur une application mobile (non déployé) d'un chatbot qui gère un emploi du temps (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
+                            "description" : ["J'ai fait une application (<a href=\"http://thecode.h.minet.net/app/\">TheCode</a>) pour Android et IOS/Mac. J'ai également fait pour un projet d'école d'ingénieur une application mobile (non déployé) d'un chatbot qui gère un emploi du temps (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
                         },
                         {
                             "title" : "Site web (HTML, CSS, PHP, Symfony, Doctrine, Django)",
@@ -162,7 +162,7 @@
                 "description" : "Site web développé pendant ma deuxième année d'école d'ingénieur pour un projet scolaire. Développée avec Symfony et Composer pour faire une application qui gère des collections de cartes Magics, de decks et des cartes liées à des comptes"
                 },
                 {"title" : "BD", 
-                "link" : "https://www.debono.fr/juliette/BD/", 
+                "link" : "http://bd.h.minet.net",
                 "icon" : "logo_bd.png",
                 "description" : "Site web pour stocker et retrouver toutes les bandes dessinées de ma mère"
                 },
@@ -172,7 +172,7 @@
                 "description" : "Application d'un chatbot qui permet de gérer son emploi du temps à partir d'un chat. Développée avec python pour la compréhension des messages, et avec Android Studio et Java pour l'interface de l'application. Application non déployée (serveur local)."
                 },
                 {"title" : "TheCode", 
-                "link" : "https://www.debono.fr/juliette/TheCode", 
+                "link" : "http://thecode.h.minet.net",
                 "icon" : "logo_thecode.svg",
                 "description" : "Application / Site web pour générer des mots de passe"
                 },
@@ -261,7 +261,7 @@
                         },
                         {
                             "title" : "Mobile applications (Java, XML, Swift)",
-                            "description" : ["I made an application for Android and IOS/Mac (<a href=\"https://www.debono.fr/juliette/TheCode/app.php\">TheCode</a>) pour Android et IOS/Mac. I also made for an engineering school project a mobile application (not deployed) of a chatbot that manages a schedule (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
+                            "description" : ["I made an application for Android and IOS/Mac (<a href=\"http://thecode.h.minet.net/app/\">TheCode</a>) pour Android et IOS/Mac. I also made for an engineering school project a mobile application (not deployed) of a chatbot that manages a schedule (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
                         },
                         {
                             "title" : "Site web (HTML, CSS, PHP, Symfony, Doctrine, Django)",
@@ -365,7 +365,7 @@
                 "description" : "Website developed during my second year of engineering school for a school project. Developed with Symfony and Composer to make an application that manages collections of Magics cards, decks and cards linked to accounts"
                 },
                 {"title" : "Comics", 
-                "link" : "https://www.debono.fr/juliette/BD/", 
+                "link" : "http://bd.h.minet.net",
                 "icon" : "logo_bd.png",
                 "description" : "Website to store & find all the comics of my mother"
                 },
@@ -375,7 +375,7 @@
                 "description" : "Application of a chatbot that allows to manage one's schedule from a chat. Developed with python for message understanding, and with Android Studio and Java for the application interface. Non-deployed application (local server)."
                 },
                 {"title" : "TheCode", 
-                "link" : "https://www.debono.fr/juliette/TheCode", 
+                "link" : "http://thecode.h.minet.net",
                 "icon" : "logo_thecode.svg",
                 "description" : "Application / website to generate passwords"
                 },
