@@ -16,10 +16,10 @@ def age():
 # Create your views here.
 
 def get_data(lang):
-    filename = os.path.join(settings.BASE_DIR, 'main/static/main/fixtures/texte.json')
+    filename = os.path.join(settings.BASE_DIR, 'main/static/main/fixtures/' + lang + '_content.json')
     with open(filename, "r", encoding='utf-8') as f:
         data = json.load(f)
-    return data[lang]
+    return data
 
 
 def home(request):
