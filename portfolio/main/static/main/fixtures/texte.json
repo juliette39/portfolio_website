@@ -164,7 +164,7 @@
                 },
                 {"title" : "BD", 
                 "link" : "http://bd.h.minet.net",
-                "git" : "https://github.com/juliette39/bd_website",
+                "git" : "none",
                 "icon" : "logo_bd.png",
                 "description" : "Site web pour stocker et retrouver toutes les bandes dessinées de ma mère"
                 },
@@ -374,7 +374,7 @@
                 },
                 {"title" : "Comics", 
                 "link" : "http://bd.h.minet.net",
-                "git" : "https://github.com/juliette39/bd_website",
+                "git" : "none",
                 "icon" : "logo_bd.png",
                 "description" : "Website to store & find all the comics of my mother"
                 },
