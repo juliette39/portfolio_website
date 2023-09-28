@@ -18,17 +18,21 @@
             {% for valeur in data.projets.proj %}
                 <div class="grid-item">
                     <p class="title"> {{ valeur.title }} </p>
-                    <img class="image-grille" src="/static/main/images/{{ valeur.icon }}" data-title="{{ valeur.title }}" data-description="{{ valeur.description }}" data-link="{{ valeur.link }}" alt="{{ valeur.title }}">
+                    <img class="image-grille" src="/static/main/images/{{ valeur.icon }}" data-title="{{ valeur.title }}" data-description="{{ valeur.description }}" data-link="{{ valeur.link }}" data-git="{{ valeur.git }}" alt="{{ valeur.title }}">
                 </div>
             {% endfor %}
 
             <!-- HTML pour la fenêtre modale -->
             <div class="modal">
                 <div class="modal-content">
+                    <a id="modal-git" href="" target="_blank">
+                        <img id="modal-git-image" src="/static/main/images/logo_github.png">
+                    </a>
                     <a id="modal-link" href="" target="_blank">
                         <h2 id="modal-title"></h2>
                         <img id="modal-image" src="">
                     </a>
+                    <span class="close-modal">X</span>
                     <p id="modal-description"></p>
                 </div>
             </div>

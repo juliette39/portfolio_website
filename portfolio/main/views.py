@@ -1,6 +1,18 @@
-from django.shortcuts import render
-import json, os
+import json
+import os
+from datetime import datetime
+
 from django.conf import settings
+from django.shortcuts import render
+
+
+def age():
+    date_de_naissance = datetime(2002, 7, 31)
+    date_actuelle = datetime.now()
+    return date_actuelle.year - date_de_naissance.year - (
+                (date_actuelle.month, date_actuelle.day) < (date_de_naissance.month, date_de_naissance.day))
+
+
 # Create your views here.
 
 def get_data(lang):
@@ -9,6 +21,7 @@ def get_data(lang):
         data = json.load(f)
     return data[lang]
 
+
 def home(request):
     if request.GET.get('lang') == 'en' or request.GET.get('lang') == 'EN':
         lang = 'en'
@@ -16,7 +29,8 @@ def home(request):
         lang = 'fr'
     data = get_data(lang)
 
-    return render(request, 'main/home.html', {'data': data, 'age':20, 'lang' : lang})
+    return render(request, 'main/home.html', {'data': data, 'age': age, 'lang': lang})
+
 
 def cv(request):
     if request.GET.get('lang') == 'en' or request.GET.get('lang') == 'EN':
@@ -24,7 +38,8 @@ def cv(request):
     else:
         lang = 'fr'
     data = get_data(lang)
-    return render(request, 'main/cv.html', {'data': data, 'age':20, 'lang' : lang})
+    return render(request, 'main/cv.html', {'data': data, 'age': age, 'lang': lang})
+
 
 def contact(request):
     if request.GET.get('lang') == 'en' or request.GET.get('lang') == 'EN':
@@ -32,7 +47,8 @@ def contact(request):
     else:
         lang = 'fr'
     data = get_data(lang)
-    return render(request, 'main/contact.html', {'data': data, 'age':20, 'lang' : lang})
+    return render(request, 'main/contact.html', {'data': data, 'age': age, 'lang': lang})
+
 
 def projets(request):
     if request.GET.get('lang') == 'en' or request.GET.get('lang') == 'EN':
@@ -40,4 +56,4 @@ def projets(request):
     else:
         lang = 'fr'
     data = get_data(lang)
-    return render(request, 'main/projets.html', {'data': data, 'age':20, 'lang' : lang})
+    return render(request, 'main/projets.html', {'data': data, 'age': age, 'lang': lang})

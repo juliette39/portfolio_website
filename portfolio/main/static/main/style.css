@@ -131,6 +131,7 @@ div.comp2:hover .exp_comp2
   }
   
   .grid-item {
+
     flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
     text-align: center;
@@ -139,13 +140,15 @@ div.comp2:hover .exp_comp2
   }
 
   .grid-item img {
+  cursor: pointer;
     display: block;
     max-width: 100%;
     width: 100%;
     height: auto;
     border-radius: 20%;
   }
-  
+
+
   
   .title {
     margin-top: 10px;
@@ -172,6 +175,7 @@ div.comp2:hover .exp_comp2
     background-color: #fefefe;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     text-align: center;
+    position: relative;
   }
   
   #modal-title {
@@ -188,7 +192,36 @@ div.comp2:hover .exp_comp2
     margin-bottom: 10px;
   }
   
-  
+
+/* Styles pour la croix de fermeture */
+.close-modal {
+    position: absolute;
+    top: 10px; /* Ajustez la position verticale selon votre préférence */
+    right: 10px; /* Ajustez la position horizontale selon votre préférence */
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; /* Couleur de la croix */
+    z-index: 1; /* Assurez-vous que la croix est au-dessus du contenu modal */
+}
+
+/* Style pour la croix lorsque survolée */
+.close-modal:hover {
+    color: var(--green); /* Couleur de la croix lorsqu'elle est survolée */
+}
+
+#modal-git {
+    position: absolute;
+    top: 10px; /* Ajustez la position verticale selon votre préférence */
+    left: 10px; /* Ajustez la position horizontale selon votre préférence */
+    cursor: pointer;
+    z-index: 1; /* Assurez-vous que la croix est au-dessus du contenu modal */
+}
+
+#modal-git img {
+    width: 30px;
+    height: 30px;
+}
 
 @media screen and (max-device-width: 480px)
 {
@@ -370,6 +403,13 @@ nav a:hover
     border-bottom: 3px solid var(--hover);
 }
 
+#container {
+    display: flex;
+    flex-direction: column; /* Pour centrer verticalement */
+    justify-content: center; /* Pour centrer horizontalement */
+    align-items: center; /* Pour centrer verticalement */
+}
+
 /* Catégorie */
 
 .bandeau
@@ -479,6 +519,11 @@ nav a:hover
         width: auto;
         height: auto;
         height: 220px;
+    }
+
+    #container {
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .bulle

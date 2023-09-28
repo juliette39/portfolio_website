@@ -20,7 +20,7 @@ from main import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
+    path('', views.cv, name='cv'),
     path('cv/', views.cv, name='cv'),
     path('contact/', views.contact, name='contact'),
     path('projets/', views.projets, name='projets'),

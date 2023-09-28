@@ -157,37 +157,44 @@
             "title" : "Mes projets",
             "proj" : [
                 {"title" : "Liliana's Trade", 
-                "link" : "http://lilianastrade.h.minet.net", 
+                "link" : "http://lilianastrade.h.minet.net",
+                "git" : "https://github.com/juliette39/lilianastrade",
                 "icon" : "lilianastrade.jpg",
                 "description" : "Site web développé pendant ma deuxième année d'école d'ingénieur pour un projet scolaire. Développée avec Symfony et Composer pour faire une application qui gère des collections de cartes Magics, de decks et des cartes liées à des comptes"
                 },
                 {"title" : "BD", 
                 "link" : "http://bd.h.minet.net",
+                "git" : "https://github.com/juliette39/bd_website",
                 "icon" : "logo_bd.png",
                 "description" : "Site web pour stocker et retrouver toutes les bandes dessinées de ma mère"
                 },
                 {"title" : "JIMI The Chatbot", 
-                "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR", 
+                "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR",
+                "git" : "https://github.com/JIMIDevLab",
                 "icon" : "logo_jimi.png",
                 "description" : "Application d'un chatbot qui permet de gérer son emploi du temps à partir d'un chat. Développée avec python pour la compréhension des messages, et avec Android Studio et Java pour l'interface de l'application. Application non déployée (serveur local)."
                 },
                 {"title" : "TheCode", 
                 "link" : "http://thecode.h.minet.net",
+                "git" : "https://github.com/juliette39/thecode_website",
                 "icon" : "logo_thecode.svg",
                 "description" : "Application / Site web pour générer des mots de passe"
                 },
                 {"title" : "Poème", 
                 "link" : "http://poeme.h.minet.net", 
+                "git" : "https://github.com/juliette39/poeme_website",
                 "icon" : "logo_poeme.png",
                 "description" : "Générateur de poème aléatoire avec rime et pied. Projet de fin de première année de CPGE en informatique avec l'utilisation de SQLite"
                 },
                 {"title" : "Il n'est jamais trop tard pour changer le monde", 
                 "link" : "https://www.youtube.com/watch?v=ugxQwSqXhDY", 
+                "git" : "none",
                 "icon" : "logo_youtube.svg",
                 "description" : "Court-métrage réalisé dans le cadre du concours étudiant du CROUS du film court, troisième prix de la région Auvergne-Rhône-Alpes"
                 },
                 {"title" : "La mesure du temps dans l'Antiquité", 
                 "link" : "http://la-mesure-du-temps.e-monsite.com", 
+                "git" : "none",
                 "icon" : "logo_tpe.png",
                 "description" : "Site internet sur la mesure du temps dans l'Antiquité réalisé pour les TPE de première en 2018"
                 }
@@ -361,36 +368,43 @@
             "proj" : [
                 {"title" : "Liliana's Trade", 
                 "link" : "http://lilianastrade.h.minet.net", 
+                "git" : "https://github.com/juliette39/lilianastrade",
                 "icon" : "lilianastrade.jpg",
                 "description" : "Website developed during my second year of engineering school for a school project. Developed with Symfony and Composer to make an application that manages collections of Magics cards, decks and cards linked to accounts"
                 },
                 {"title" : "Comics", 
                 "link" : "http://bd.h.minet.net",
+                "git" : "https://github.com/juliette39/bd_website",
                 "icon" : "logo_bd.png",
                 "description" : "Website to store & find all the comics of my mother"
                 },
                 {"title" : "JIMI The Chatbot", 
                 "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR", 
+                "git" : "https://github.com/JIMIDevLab",
                 "icon" : "logo_jimi.png",
                 "description" : "Application of a chatbot that allows to manage one's schedule from a chat. Developed with python for message understanding, and with Android Studio and Java for the application interface. Non-deployed application (local server)."
                 },
                 {"title" : "TheCode", 
                 "link" : "http://thecode.h.minet.net",
+                "git" : "https://github.com/juliette39/thecode_website",
                 "icon" : "logo_thecode.svg",
                 "description" : "Application / website to generate passwords"
                 },
                 {"title" : "Poeme", 
                 "link" : "http://poeme.h.minet.net", 
+                "git" : "https://github.com/juliette39/poeme_website",
                 "icon" : "logo_poeme.png",
                 "description" : "Random poem generator with rhyme and foot. Project for the end of the first year of preparatory class in computer science with the use of SQLite"
                 },
                 {"title" : "Il n'est jamais trop tard pour changer le monde",
                 "link" : "https://www.youtube.com/watch?v=ugxQwSqXhDY", 
+                "git" : "none",
                 "icon" : "logo_youtube.svg",
                 "description" : "Short film produced for the CROUS student short film competition, third prize in the Auvergne-Rhône-Alpes region"
                 },
                 {"title" : "La mesure du temps dans l'Antiquité", 
                 "link" : "http://la-mesure-du-temps.e-monsite.com", 
+                "git" : "none",
                 "icon" : "logo_tpe.png",
                 "description" : "Website on the measurement of time in Antiquity made for the TPE of première in 2018"
                 }
