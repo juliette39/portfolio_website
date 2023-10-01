@@ -16,8 +16,8 @@
     },
 
     "accueil" : {
-        "title" : "Welcom!",
-        "description1" : "Welcom on my website!",
+        "title" : "Welcome!",
+        "description1" : "Welcome on my website!",
         "description2" : "You will find my CV, my projects and contact informations."
     },
 
@@ -32,6 +32,7 @@
             "title" : "Experience",
             "icon" : "logo_experience.svg",
             "cont" : [
+                "12 weeks internship at <a href=\"https://group.schindler.com/en.html\" target=\"_blank\">Schindler</a>, Milan. Development of a crowdsourcing application to report problems with lifts. Development of a web application and an iOS/Android application as well as an API to connect to an online database.",
                 "5 weeks internship at <a href=\"https://www.milvue.com\" target=\"_blank\">Milvue</a>, AI start-up to detect various pathologies in radiology. Development of the Hubspot CRM (Customer Relationship Management) tool & Web Site Design.",
                 "General Secretary of the Télécom SudParis Student Office. Worked with a team of 35 people. Helped prepare an integration weekend organised entirely by the BDE for the students, as well as numerous parties for several hundred students.",
                 "Project leader of a team of 5 people. Work with young people in a neighbourhood centre in Evry to introduce them to theatre."
@@ -48,7 +49,7 @@
                         "description" : ["Since 4 years, within 2 years in preparatory school, many projects (school and personal). Creation of a website with the Django framework."]
                     },
                     {
-                        "title" : "SQLite & MySQL",
+                        "title" : "SQLite, MySQL, MariaDB",
                         "description" : ["I took a course to discover the SQLite language and a more advanced course in engineering school on modelling, class diagrams (UML), as well as normalisation."]
                     },
                     {
@@ -56,8 +57,15 @@
                         "description" : ["Preparatory class computer science option course."]
                     },
                     {
+                        "title" : "Web & Mobile App (Flutter, Spring Boot)",
+                        "description" : [
+                            "I made an application (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">JIMI The Chatbot</a>) for Android and IOS/Mac. It's a chatbot that manages a timetable using OpenAI to respond. It uses a Spring Boot <a href=\"http://jimi.h.minet.net/swagger-ui.html\">API</a> to analyse the information, connect to the API and respond, and a Flutter interface for the user.",
+                            "My internship at Schindler was mainly focused on developing a Spring Boot Java API and a Flutter application."
+                        ]
+                    },
+                    {
                         "title" : "Mobile applications (Java, XML, Swift)",
-                        "description" : ["I made an application for Android and IOS/Mac (<a href=\"http://thecode.h.minet.net/app/\">TheCode</a>) pour Android et IOS/Mac. I also made for an engineering school project a mobile application (not deployed) of a chatbot that manages a schedule (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">Jimi The Chatbot</a>)"]
+                        "description" : ["I made an application for Android and IOS/Mac (<a href=\"http://thecode.h.minet.net/app/\">TheCode</a>)."]
                     },
                     {
                         "title" : "Site web (HTML, CSS, PHP, Symfony, Doctrine, Django)",
@@ -65,6 +73,11 @@
                             "Some web pages (available on my site) including TheCode and a random french poem generator (<a href=\"http://poeme.h.minet.net\">here</a>)",
                             "A PHP magic card sharing project (<a href=\"http://lilianastrade.h.minet.net\">Liliana's Trade</a>), using the PHP frameworks Symfony and Doctrine, and Bootstrap.",
                             "A personnal website in Django"]
+                    },
+                    {
+                        "title" : "Git",
+                        "description" : [
+                            "All my projects are available on my <a href=\"https://github.com/juliette39\">GitHub</a>, feel free to have a look!"]
                     }
                 ]
             },
@@ -77,7 +90,7 @@
                     },
                     {
                         "title" : "English - Fluent",
-                        "description" : "11 years during my studies, numerous language stays abroad, <a href=\"/static/main/docs/attestationAnglaisC1.pdf\">C1 level</a>"
+                        "description" : "12 years during my studies, numerous language stays abroad, three-months internship in Milan entirely in english, <a href=\"/static/main/docs/attestationAnglaisC1.pdf\">C1 level</a>"
                     },
                     {
                         "title" : "Spanish - Conversational",
@@ -85,7 +98,7 @@
                     },
                     {
                         "title" : "Italian - Basic",
-                        "description" : "3 years in high school, Niveau A2"
+                        "description" : "3 years in high school, three-months internship in Milan, Niveau A2"
                     }
                 ]
             },
@@ -101,7 +114,7 @@
             "form" : [
                 {
                     "title" : "ENGINEERING SCHOOL • 2021-2024 • <a href=\"https://www.telecom-sudparis.eu/en/\" target=\"_blank\">TÉLÉCOM SUD-PARIS</a> • <a href=\"https://www.ip-paris.fr/en\" target=\"_blank\">INSTITUT POLYTECHNIQUE DE PARIS</a> ÉVRY",
-                    "description" : "School of Digital Engineering. Second year in progress.<br />Computer science courses: Java, Bash, PHP, C; networks; imaging and mathematics."
+                    "description" : "Digital engineering school. Third year in progress, option ASR (Architecture of Distributed Systems).<br />Computer science courses: Java, Bash, PHP, C; networks and mathematics."
                 },
                 {
                     "title" : "CPGE • 2019-2021 • <a href=\"http://www.lamartinieremonplaisir.org\" target=\"_blank\">LYCÉE LA MARTINIÈRE MONPLAISIR</a> LYON 8",
@@ -171,11 +184,11 @@
             "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR",
             "git" : "https://github.com/JIMIDevLab",
             "icon" : "logo_jimi.png",
-            "description" : "Application of a chatbot that allows to manage one's schedule from a chat. Developed with python for message understanding, and with Android Studio and Java for the application interface. Non-deployed application (local server)."
+            "description" : "Application of a chatbot that lets you manage your schedule from a chat. Developed with Spring Boot for the API accessing the database, using OpenAI for NLP processing. Developed in Flutter for the application interface. Application available on the Play Store, API accessible (jimi.h.minet.net/swagger-ui.html)."
             },
             {"title" : "TheCode",
             "link" : "http://thecode.h.minet.net",
-            "git" : "https://github.com/juliette39/thecode_website",
+            "git" : "https://github.com/TheCodeDevLab",
             "icon" : "logo_thecode.svg",
             "description" : "Application / website to generate passwords"
             },

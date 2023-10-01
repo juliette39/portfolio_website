@@ -2,7 +2,7 @@
 /*top right bottom left*/
 
 :root {
-    --bg: #c4f1f9;
+    --bg: #E5E5E5;
     --text: black;
     --text_box: white;
     --bg_box: white;
@@ -563,6 +563,11 @@ nav a:hover
         position: relative;
         width: 100%;
         top: 0%;
+    }
+
+    #container {
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     section
