@@ -18,7 +18,7 @@
     font-family: 'Rockwell';
     font-style: normal;
     font-weight: normal;
-    src: local('Rockwell'), url('font/ROCK.tff') format('tff');
+    src: local('Rockwell'), url('polices/ROCK.TTF') format('ttf');
 }
 
 /* Eléments principaux de la page */
