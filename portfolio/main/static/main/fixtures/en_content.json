@@ -59,7 +59,7 @@
                     {
                         "title" : "Web & Mobile App (Flutter, Spring Boot)",
                         "description" : [
-                            "I made an application (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">JIMI The Chatbot</a>) for Android and IOS/Mac. It's a chatbot that manages a timetable using OpenAI to respond. It uses a Spring Boot <a href=\"http://jimi.h.minet.net/swagger-ui.html\">API</a> to analyse the information, connect to the API and respond, and a Flutter interface for the user.",
+                            "I made an application (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">JIMI The Chatbot</a>) for Android and IOS/Mac. It's a chatbot that manages a timetable using OpenAI to respond. It uses a Spring Boot <a href=\"http://jimi-api.h.minet.net/swagger-ui.html\">API</a> to analyse the information, connect to the API and respond, and a Flutter interface for the user.",
                             "My internship at Schindler was mainly focused on developing a Spring Boot Java API and a Flutter application."
                         ]
                     },
@@ -122,7 +122,7 @@
                 },
                 {
                     "title" : "High School Degree • 2019 • <a href=\"http://www.lyc-jean-michel.ac-besancon.fr\" target=\"_blank\">LYCÉE JEAN MICHEL</a> LONS-LE-SAUNIER",
-                    "description" : "High School Scientific Degree (Baccalauréat), Main courses: Maths, Physics, Biology | 18.47/20 Highest Honors"
+                    "description" : "High School Scientific Degree (Baccalauréat), Main courses: Maths, Physics, Biology | Grade: 18.47/20, Highest Honors"
                 }
             ]
         },
@@ -181,10 +181,10 @@
             "description" : "Website to store & find all the comics of my mother"
             },
             {"title" : "JIMI The Chatbot",
-            "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR",
+            "link" : "http://jimi.h.minet.net/#/home",
             "git" : "https://github.com/JIMIDevLab",
             "icon" : "logo_jimi.png",
-            "description" : "Application of a chatbot that lets you manage your schedule from a chat. Developed with Spring Boot for the API accessing the database, using OpenAI for NLP processing. Developed in Flutter for the application interface. Application available on the Play Store, API accessible (jimi.h.minet.net/swagger-ui.html)."
+            "description" : "Application of a chatbot that lets you manage your schedule from a chat. Developed with Spring Boot for the API accessing the database, using OpenAI for NLP processing. Developed in Flutter for the application interface. Application available on the Play Store, on the Internet, API accessible (jimi-api.h.minet.net/swagger-ui.html)."
             },
             {"title" : "TheCode",
             "link" : "http://thecode.h.minet.net",

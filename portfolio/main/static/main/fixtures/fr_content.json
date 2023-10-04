@@ -59,7 +59,7 @@
                     {
                         "title" : "Applications Web & Mobile (Flutter, Spring Boot)",
                         "description" : [
-                            "J'ai fait une application (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">JIMI The Chatbot</a>) pour Android et IOS/Mac. C'est un chatbot qui gère un emploi du temps en utilisant OpenAI pour répondre. Il utilise une <a href=\"http://jimi.h.minet.net/swagger-ui.html\">API</a> Spring Boot pour analysé les informations, se connecter à l'API et répondre, et une interface Flutter pour l'utilisateur.",
+                            "J'ai fait une application (<a href=\"https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR\">JIMI The Chatbot</a>) pour Android et IOS/Mac. C'est un chatbot qui gère un emploi du temps en utilisant OpenAI pour répondre. Il utilise une <a href=\"http://jimi-api.h.minet.net/swagger-ui.html\">API</a> Spring Boot pour analysé les informations, se connecter à l'API et répondre, et une interface Flutter pour l'utilisateur.",
                             "Mon stage chez Schindler était essentiellement centré sur le développement d'une API Java Spring Boot et d'une application Flutter."]
                     },
                     {
@@ -121,7 +121,7 @@
                 },
                 {
                     "title" : "BACCALAURÉAT • 2019 • <a href=\"http://www.lyc-jean-michel.ac-besancon.fr\" target=\"_blank\">LYCÉE JEAN MICHEL</a> LONS-LE-SAUNIER",
-                    "description" : "S SVT, Option Mathématiques | 18.47 Mention Très Bien"
+                    "description" : "S SVT, Option Mathématiques | Note : 18.47/20, Mention Très Bien"
                 }
             ]
         },
@@ -180,10 +180,10 @@
             "description" : "Site web pour stocker et retrouver toutes les bandes dessinées de ma mère"
             },
             {"title" : "JIMI The Chatbot",
-            "link" : "https://play.google.com/store/apps/details?id=fr.tsp.jimithechatbot&gl=FR",
+            "link" : "http://jimi.h.minet.net/#/home",
             "git" : "https://github.com/JIMIDevLab",
             "icon" : "logo_jimi.png",
-            "description" : "Application d'un chatbot qui permet de gérer son emploi du temps à partir d'un chat. Développée avec Spring Boot pour l'API qui accède à la base de données, utilise OpenAI pour le traitement NLP. Développement en Flutter pour l'interface de l'application. Application disponible sur le Play Store, API accessible (jimi.h.minet.net/swagger-ui.html)."
+            "description" : "Application d'un chatbot qui permet de gérer son emploi du temps à partir d'un chat. Développée avec Spring Boot pour l'API qui accède à la base de données, utilise OpenAI pour le traitement NLP. Développement en Flutter pour l'interface de l'application. Application disponible sur le Play Store, en site internet, API accessible (jimi-api.h.minet.net/swagger-ui.html)."
             },
             {"title" : "TheCode",
             "link" : "http://thecode.h.minet.net",
